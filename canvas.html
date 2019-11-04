@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="mission1.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    <title>Document</title>
+    <link rel="stylesheet" href="mission1.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="content1">
+        <form>
+            <h4>Input radius value and get the volume of a sphere:</h4>
+            Radius:
+            <br/>
+            <br/>
+            <input type="number" id="radius" class="form-control">
+            <br>
+            <br/> Volume:
+            <br/>
+            <br/>
+            <span id="volume"></span>
+            <br/>
+            <br/>
+            <div>
+                <input type="button" value="calculate" onclick="calculate()" class="btn btn-primary">
+            </div>
+        </form>
+        </div>
+
+        <div class="content2">
+        <h2>Drawing On Canvas!</h2>
+        <canvas id="myCanvas" width="500" height="450" style="border:1px solid black">
+        </canvas>
+        <br>
+        <br/><input type="button" onclick="clearCanvas()" value="Clear" style="width:500px"class="btn btn-primary">
+        </div>
+    </div>
+        
+
+</body>
+
+</html>
